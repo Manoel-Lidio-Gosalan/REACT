@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+
+    <link rel="shortcut icon" href="..\\img\\favicon-02.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem flexivel</h1>
+    <p>
+        você esta vendo a imagem completa? experimente ampliar o tamanha da sua janela para aproveitar outras imagens já que elas mudam ao alterar o tamanho da aba!!!!
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="../img/df007p-gimp.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="../img/df007m-gimp.jpg" type="image/jpg">
+        <img src="..\\img\\df007g-gimp.jpg" alt="a img esta funcionando">
+    </picture>
+</body>
+</html>
